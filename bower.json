@@ -1,0 +1,26 @@
+{
+  "name": "zoeames.github.io",
+  "version": "0.0.0",
+  "homepage": "https://github.com/zoeames/zoeames.github.io",
+  "authors": [
+    "Zoe Ames <zoeames@gmail.com>"
+  ],
+  "description": "Personal Profile",
+  "main": "index.html",
+  "moduleType": [
+    "node"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.0",
+    "fontawesome": "~4.2.0",
+    "jquery": "~2.1.1"
+  }
+}
