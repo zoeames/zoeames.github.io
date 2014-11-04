@@ -1,0 +1,36 @@
+html {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  background-color: white;
+  color: white;
+  background-image: url('../assets/img/wrinkled.jpg');
+  background-repeat: none;
+  background-size: cover;
+  background-attachment: fixed;
+  margin-bottom: 60px;
+}
+
+h2, h3, h4{
+  text-align: center;
+}
+
+
+.mePhoto {
+  border-radius: 50%;
+  background-image: url('../assets/img/me.jpeg');
+  background-repeat: none;
+  background-size: cover;
+  height: 200px;
+  width: 200px;
+}
+
+
+.row2 {
+  background-color: navy;
+}

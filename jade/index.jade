@@ -4,18 +4,89 @@ html(lang='en')
     meta(charset='utf-8')
     meta(http-equiv='X-UA-Compatible', content='IE=edge')
     meta(name='viewport', content='width=device-width, initial-scale=1')
-    title Zoe Ames
-    link(href='vendor/bootstrap/dist/css/bootstrap.css', rel='stylesheet')
+    meta(name='description', content='')
+    meta(name='author', content='')
+    link(rel='icon', href='../../favicon.ico')
+    title Sticky Footer Navbar Template for Bootstrap
+    // Bootstrap core CSS 
+    link(href='vendor/bootstrap/dist/css/bootstrap.min.css', rel='stylesheet')
     link(href='vendor/fontawesome/css/font-awesome.css', rel='stylesheet')
-    link(href='index.css', rel='stylesheet')
-    link(href='views/home/home.css', rel='stylesheet')
+    // Custom styles for this template 
+    link(href='css/sticky-footer-navbar.css', rel='stylesheet')
+    link(href='css/index.css', rel='stylesheet')
   body
     include nav
     .container
+      .page-header
+        h2 Zoe Ames
+        h3 Developer  |  Web Designger  |  Astrophysicist
       .row
-        .col-xs-12
-
+        .col-xs-4
+          .mePhoto
+        .col-xs-8
+          p Rope's end Gold Road tackle broadside marooned run a shot across the bow chandler ballast topgallant warp. Lass hail-shot Sail ho American Main black spot cable hornswaggle bilge heave down coffer. Topgallant prow loot hail-shot Davy Jones' Locker provost crow's nest list Jolly Roger gally. Lateen sail cable jury mast tackle landlubber or just lubber pressgang chandler Admiral of the Black pink wench. Sloop belaying pin topgallant long boat Shiver me timbers pinnace broadside barkadeer Spanish Main ballast. Dead men tell no tales lugger fluke Chain Shot crimp deadlights Yellow Jack gunwalls Letter of Marque me. 
+      .row2
+        h4 Skills:
+        .col-xs-4
+          ul
+            li MongoDB
+        .col-xs-4
+          ul
+            li Angular JS
+        .col-xs-4
+          ul
+            li JavaScript
+      .row3
+        h4 Portfolio:
+      .row4
+        h5 Capstones:
+        .col-xs-4
+          ul
+            li Project 1
+        .col-xs-4
+          ul
+            li Project 2
+        .col-xs-4
+          ul
+            li Project 3
+      .row5
+        h5 MEAN Stack:
+        .col-xs-4
+          ul
+            li Project 1
+        .col-xs-4
+          ul
+            li Project 2
+        .col-xs-4
+          ul
+            li Project 3
+      .row6
+        h5 CRUD Apps:
+        .col-xs-4
+          ul
+            li Project 1
+        .col-xs-4
+          ul
+            li Project 2
+        .col-xs-4
+          ul
+            li Project 3
+      .row7
+        h5 Games:
+        .col-xs-4
+          ul
+            li Project 1
+        .col-xs-4
+          ul
+            li Project 2
+        .col-xs-4
+          ul
+            li Project 3
+        
+    .footer
+      .container
+        p: i.fa.fa-copyright &nbsp Zoe Ames
+    
+    
     script(src='vendor/jquery/dist/jquery.js')
-    script(src='vendor/bootstrap/dist/js/bootstrap.js')
-    script(src='vendor/underscore/underscore.js')
-    script(src='index.js')
+    script(src='vendor/bootstrap/dist/js/bootstrap.min.js')
