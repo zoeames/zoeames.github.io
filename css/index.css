@@ -35,3 +35,51 @@ h2, h3, h4{
 .row2 {
   background-color: navy;
 }
+
+.icon {
+  color: #1b1b1b;
+  width:100%/5;
+  display: inline-block;
+  text-align: center;
+  margin-top: 50px;
+}
+
+
+.game1, .game2, .game3 {
+  width: 50%;
+  margin: 0;
+  padding: 30px;
+  float: left;
+  overflow: hidden;
+  width: 100%/3;
+  text-align: center;
+  background-color: rgba(242, 242, 242, 0.41);
+  border-left: 1px solid #e2e2e2;
+  h4 {
+    font-weight: 700;
+    color: #842128;
+  }
+
+  img {
+    width: 200px;
+    height: 240px;
+    border: 2px solid #842128;
+  }
+
+  .tag {
+    font-size: 16px;
+    display: inline;
+    margin: 5px;
+    color: #A38D7A;
+  }
+  .buttons {
+   padding: 5px;
+
+   a {
+     margin: 10px;
+     width: 100%/2;
+     text-align: center;
+   }
+  }
+
+}

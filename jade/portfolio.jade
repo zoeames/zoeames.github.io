@@ -8,10 +8,10 @@ html(lang='en')
     meta(name='author', content='')
     link(rel='icon', href='../../favicon.ico')
     title Zoe Ames
-    // Bootstrap core CSS 
+    // Bootstrap core CSS
     link(href='vendor/bootstrap/dist/css/bootstrap.min.css', rel='stylesheet')
     link(href='vendor/fontawesome/css/font-awesome.css', rel='stylesheet')
-    // Custom styles for this template 
+    // Custom styles for this template
     link(href='css/sticky-footer-navbar.css', rel='stylesheet')
     link(href='css/index.css', rel='stylesheet')
   body
@@ -19,7 +19,7 @@ html(lang='en')
     .container
       .page-header
         h3 Portfolio
-        
+
       .row4
         h5 Capstones:
         .col-xs-4
@@ -55,20 +55,21 @@ html(lang='en')
             li Project 3
       .row7
         h5 Games:
-        .col-xs-4
-          ul
-            li Project 1
-        .col-xs-4
-          ul
-            li Project 2
-        .col-xs-4
-          ul
-            li Project 3
-        
+        .game1
+          h4 DragonBird
+          section
+            a(href='http://www.zoeames.com/dragonBird/', target="_blank"): img(src='assets/img/flappyDragon.png')
+            p Flappy bird + dragon!
+            p.tag Phaser
+            p.tag Javascript
+            .buttons
+              a(href='https://github.com/zoeames/dragonBird', target="_blank"): i.fa.fa-github-alt.fa-2x
+              a(href='http://www.zoeames.com/dragonBird/', target="_blank"): i.fa.fa-play.fa-2x
+
     .footer
       .container
         p: i.fa.fa-copyright &nbsp Zoe Ames
-    
-    
+
+
     script(src='vendor/jquery/dist/jquery.js')
     script(src='vendor/bootstrap/dist/js/bootstrap.min.js')
