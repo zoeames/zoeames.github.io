@@ -1,0 +1,42 @@
+body{
+  background-color: #ccc;
+}
+
+.page-header{
+  text-align: center;
+}
+
+.navbar.navbar-default.navbar-fixed-bottom{
+  font-size: 0.75em;
+  text-align: center;
+
+}
+
+.navbar-text#email{
+  font-size: 2em;
+  display: inline-block;
+  text-align: center;
+}
+
+p.fa.fa.twitter{
+  font-size: 2em;
+  display: inline-block;
+  top: 5px;
+  color: black;
+  text-align: center;
+}
+
+.col-xs-8.email{
+  text-align: center;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover{
+  text-decoration: none;
+  color: rgba(0,0,0, .7);
+}

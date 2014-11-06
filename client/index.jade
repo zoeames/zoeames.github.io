@@ -1,0 +1,27 @@
+html(ng-app='zoeames', lang='en')
+  head
+    meta(charset='utf-8')
+    link(href='/vendor/bootstrap/dist/css/bootstrap.css', rel='stylesheet')
+    link(href='/css/style.css', rel='stylesheet')
+    link(href='/css/home.css', rel='stylesheet')
+    link(href='/vendor/fontawesome/css/font-awesome.css', rel='stylesheet')
+    title Zoe Ames
+  body
+    include nav
+    .container
+      .row
+        .col-xs-12
+          #container(ng-view)
+    
+    
+    script(src='/vendor/jquery/dist/jquery.js')
+    script(src='/vendor/angular/angular.js')
+    script(src='/vendor/angular-route/angular-route.js')
+    script(src='./index.js')
+    script(src='/vendor/bootstrap/dist/js/bootstrap.js')
+    script(src='/vendor/underscore/underscore-min.js')
+    script(src='/views/home/home.js')
+    script(src='/views/astrophysics/astrophysics.js')
+    script(src='/views/portfolio/portfolio.js')
+    script(src='/views/resume/resume.js')
+    script(src='/views/contact/contact.js')

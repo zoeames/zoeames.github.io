@@ -1,19 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html ng-app="zoeames" lang="en">
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="icon" href="../../favicon.ico">
+    <link href="/vendor/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
+    <link href="/css/style.css" rel="stylesheet">
+    <link href="/css/home.css" rel="stylesheet">
+    <link href="/vendor/fontawesome/css/font-awesome.css" rel="stylesheet">
     <title>Zoe Ames</title>
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="vendor/fontawesome/css/font-awesome.css" rel="stylesheet">
-    <!-- Custom styles for this template -->
-    <link href="css/sticky-footer-navbar.css" rel="stylesheet">
-    <link href="css/index.css" rel="stylesheet">
   </head>
   <body>
     <div role="navigation" class="navbar navbar-default">
@@ -23,58 +16,40 @@
         </div>
         <div id="bs-navbar-collapse" class="collapse navbar-collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="/contact" class="i fa fa-phone">&nbsp  Contact Me</a></li>
-            <li><a href="/portfolio" class="i fa fa-phone">&nbsp  Portfolio</a></li>
-            <li><a href="/resume" class="i fa fa-newspaper-o">&nbsp  Resume </a></li>
-            <li><a href="/astrophysics" class="i fa fa-rocket">&nbsp Astrophysics </a></li>
+            <li><a href="/#/contact" class="i fa fa-phone">&nbsp  Contact Me</a></li>
+            <li><a href="/#/portfolio" class="i fa fa-picture-o">&nbsp  Portfolio</a></li>
+            <li><a href="/#/resume" class="i fa fa-newspaper-o">&nbsp  Resume </a></li>
+            <li><a href="/#/astrophysics" class="i fa fa-rocket">&nbsp Astrophysics </a></li>
           </ul>
         </div>
       </div>
     </div>
-    <div class="container">
-      <div class="page-header">
-        <h2>Zoe Ames</h2>
-        <h3>Developer  |  Web Designger  |  Astrophysicist</h3>
-      </div>
-      <div class="row">
-        <div class="col-xs-4">
-          <div class="mePhoto"></div>
-        </div>
-        <div class="col-xs-8">
-          <p>Rope's end Gold Road tackle broadside marooned run a shot across the bow chandler ballast topgallant warp. Lass hail-shot Sail ho American Main black spot cable hornswaggle bilge heave down coffer. Topgallant prow loot hail-shot Davy Jones' Locker provost crow's nest list Jolly Roger gally. Lateen sail cable jury mast tackle landlubber or just lubber pressgang chandler Admiral of the Black pink wench. Sloop belaying pin topgallant long boat Shiver me timbers pinnace broadside barkadeer Spanish Main ballast. Dead men tell no tales lugger fluke Chain Shot crimp deadlights Yellow Jack gunwalls Letter of Marque me. </p>
-        </div>
-      </div>
-      <div class="row2">
-        <h4>Skills:</h4>
-        <div class="col-xs-4">
-          <h5>MongoDB</h5>
-          <h5>bla</h5>
-          <h5>bla</h5>
-          <h5>bla</h5>
-          <h5>bla</h5>
-        </div>
-        <div class="col-xs-4">
-          <h5>Angular JS</h5>
-          <h5>bla</h5>
-          <h5>bla</h5>
-          <h5>bla</h5>
-          <h5>bla</h5>
-        </div>
-        <div class="col-xs-4">
-          <h5>JavaScript</h5>
-          <h5>bla</h5>
-          <h5>bla</h5>
-          <h5>bla</h5>
-          <h5>bla</h5>
-        </div>
-      </div>
-    </div>
-    <div class="footer">
+    <div class="navbar navbar-default navbar-fixed-bottom">
       <div class="container">
-        <p><i class="fa fa-copyright">&nbsp Zoe Ames</i></p>
+        <div class="col-xs-2"><a id="email" href="mailto:zoeames@gmail.com" class="fa fa-envelope-o fa-3x">&nbsp;</a></div>
+        <div class="col-xs-8 email">
+          <p><i class="fa fa-copyright">&nbsp Zoe Ames</i></p>
+        </div>
+        <div class="col-xs-2"><a href="www.twitter.com/zoe_ames" class="fa fa-twitter fa-3x"></a></div>
       </div>
     </div>
-    <script src="vendor/jquery/dist/jquery.js"></script>
-    <script src="vendor/bootstrap/dist/js/bootstrap.min.js"></script>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <div id="container" ng-view></div>
+        </div>
+      </div>
+    </div>
+    <script src="/vendor/jquery/dist/jquery.js"></script>
+    <script src="/vendor/angular/angular.js"></script>
+    <script src="/vendor/angular-route/angular-route.js"></script>
+    <script src="./index.js"></script>
+    <script src="/vendor/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="/vendor/underscore/underscore-min.js"></script>
+    <script src="/views/home/home.js"></script>
+    <script src="/views/astrophysics/astrophysics.js"></script>
+    <script src="/views/portfolio/portfolio.js"></script>
+    <script src="/views/resume/resume.js"></script>
+    <script src="/views/contact/contact.js"></script>
   </body>
 </html>
