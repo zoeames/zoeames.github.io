@@ -7,7 +7,7 @@
     $routeProvider
     .when('/', {templateUrl:'/views/home/home.html', controller:'HomeCtrl'})
     .when('/astrophysics', {templateUrl:'/views/astrophysics/astrophysics.html', controller:'AstroCtrl'})
-    .when('/contact', {templateUrl:'/views/contact/contact.html', controller:'ContactCtrl'})
+    .when('/skills', {templateUrl:'/views/skills/skills.html', controller:'SkillsCtrl'})
     .when('/portfolio', {templateUrl:'/views/portfolio/portfolio.html', controller:'PortfolioCtrl'})
     .when('/resume', {templateUrl:'/views/resume/resume.html', controller:'ResumeCtrl'})
     .otherwise({redirectTo:'/'});
