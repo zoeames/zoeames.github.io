@@ -1,0 +1,14 @@
+.skillBox{
+  width: 20%;
+  height: 200px;
+  border-radius: 20%;
+  border: solid black 2px;
+  padding: 10px;
+  margin: 10px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+#skills{
+  display: inline-block;
+}
