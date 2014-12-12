@@ -1,9 +1,10 @@
-canvas{
-	display:block;
-	vertical-align:bottom;
-}
-
-#particles-js{
-  height:100%;
-  background:#000;
+.ic348Photo {
+	background-image: url('../assets/img/ic348_purple.jpg');
+	background-repeat: none;
+	background-size: cover;
+	height: 500px;
+	width: 500px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto
 }
