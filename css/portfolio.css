@@ -1,5 +1,6 @@
 .portContainer{
-  background-color: green;
+  background-image: url('../assets/img/backgrounds/escheresque.png');
+  background-repeat: none;
   margin: 0;
   padding: 0;
 }

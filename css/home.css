@@ -1,5 +1,6 @@
 .homeController{
-  background-color: orange;
+  background-image: url('../assets/img/backgrounds/swirl_pattern.png');
+  background-repeat: none;
   margin: 0;
   padding: 0;
 }

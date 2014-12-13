@@ -1,5 +1,6 @@
 .resumeContainer{
-  background-color: yellow;
+  background-image: url('../assets/img/backgrounds/arches.png');
+  background-repeat: none;
   margin: 0;
   padding: 0;
 }
