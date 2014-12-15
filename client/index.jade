@@ -2,7 +2,8 @@ html(ng-app='zoeames', lang='en')
   head
     meta(charset='utf-8')
     link(href='/css/normalize.css', rel='stylesheet')
-    link(href='/vendor/bootstrap/dist/css/bootstrap.css', rel='stylesheet')
+    link(href='/vendor/bootstrap/dist/css/bootstrap.min.css', rel='stylesheet')
+    //link(href='/css/responsive.css', rel='stylesheet')
     link(href='/css/main.css', rel='stylesheet')
     link(href='/css/home.css', rel='stylesheet')
     link(href='/css/navbar.css', rel='stylesheet')
@@ -13,6 +14,7 @@ html(ng-app='zoeames', lang='en')
     link(href='/css/devicons.min.css', rel='stylesheet')
     link(href='/vendor/fontawesome/css/font-awesome.css', rel='stylesheet')
     link(href='//cdn.jsdelivr.net/devicons/1.4.0/css/devicons.min.css', rel='stylesheet')
+    link(href='/components/accordion/accordion.css', rel='stylesheet')
     title Zoe Ames
   body
     include nav
@@ -35,3 +37,4 @@ html(ng-app='zoeames', lang='en')
     script(src='/views/skills/skills.js')
     script(src='/vendor/jquery/dist/jquery.min.js')
     script(type='text/javascript', src='/assets/js/modernizr.custom.29473.js')
+    script(src='/components/accordion/accordion.js')
