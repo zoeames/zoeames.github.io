@@ -19,5 +19,28 @@
   margin: 10px;
   display: inline-block;
   vertical-align: top;
-  background-color: lightblue;
+  background-color: #14b9cb;
+}
+
+.collapse.in{
+  background-image: url('../assets/img/backgrounds/escheresque.png');
+  background-repeat: none;
+}
+
+.panel-heading{
+  margin: 0px;
+  padding: 0px;
+}
+
+.panel{
+  background-color: transparent;
+}
+
+.panel-default>.panel-heading {
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.panel-default {
+  border-color: transparent;
 }
