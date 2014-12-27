@@ -15,6 +15,7 @@
 
 .navbar-default .navbar-nav > li > a {
   color: #FEAC00;
+  font-size: large
 }
 
 
@@ -31,4 +32,12 @@
   display: block;
   height: 50px;
   margin: 10px;
+}
+
+@media (max-width: 767px) {
+  .navbar-brand>img {
+    display: block;
+    height: 25px;
+    margin: 0px;
+  }
 }
