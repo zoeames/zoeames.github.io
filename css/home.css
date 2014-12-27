@@ -6,6 +6,8 @@
 }
 
 .mePhoto {
+  display: block;
+  margin: auto;
   border-radius: 25%;
   background-image: url('../assets/img/me.jpeg');
   background-repeat: none;
@@ -66,4 +68,15 @@ h2.contact {
 
 .btn-primary {
   background-color: #2A53C1;
+}
+
+@media screen and (max-width:480px){
+  h3.name {
+    font-size: 350%;
+    color: #2A53C1;
+  }
+  .icon{
+    display: inline-block;
+    margin: 10px;
+  }
 }
