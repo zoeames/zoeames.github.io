@@ -85,6 +85,12 @@ h2.contact {
 }
 
 @media screen and (max-width:480px){
+  h1.name {
+    font-size: 650%;
+    color: #FEAC00;
+    font-family: 'viking_shipregular';
+    padding: 30px;
+  }
   h3.name {
     font-size: 350%;
     color: #2A53C1;
