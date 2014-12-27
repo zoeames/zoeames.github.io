@@ -13,3 +13,33 @@
   height: 300px;
   width: 300px;
 }
+
+h1.name {
+  font-size: 1000%;
+  color: #FEAC00;
+}
+
+h3.name {
+  font-size: 400%;
+  color: #2A53C1;
+}
+
+#spacermiddle{
+  height: 50px;
+}
+
+
+.biopannel{
+  height: 300px;
+  border-radius: 5%;
+  border: solid #FEAC00 3px;
+  padding: 10px;
+  margin: 10px;
+  display: inline-block;
+  vertical-align: center;
+  background-color: #14b9cb;
+}
+
+h4.info {
+  font-size: 150%;
+}
