@@ -26,3 +26,9 @@
   background-color: #4A6DCB;
   color: #FFB71F;
 }
+
+.navbar-brand>img {
+  display: block;
+  height: 50px;
+  margin: 10px;
+}
