@@ -53,3 +53,23 @@ h2.title{
 .iconIcon{
   text-align: right;
 }
+
+
+@media screen and (max-width:480px){
+  h2.title{
+    color: #FEAC00;
+    font-family: 'viking_shipregular';
+    font-size: 500%;
+    padding: 30px;
+  }
+}
+
+
+@media screen and (max-width:380px){
+  h2.title{
+    color: #FEAC00;
+    font-family: 'viking_shipregular';
+    font-size: 400%;
+    padding: 30px;
+  }
+}
