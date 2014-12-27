@@ -1,3 +1,15 @@
+@font-face {
+  font-family: 'viking_shipregular';
+  src: url('vikingship-webfont.eot');
+  src: url('vikingship-webfont.eot?#iefix') format('embedded-opentype'),
+  url('/assets/fonts/vikingship/vikingship-webfont.woff2') format('woff2'),
+  url('/assets/fonts/vikingship/vikingship-webfont.woff') format('woff'),
+  url('/assets/fonts/vikingship/vikingship-webfont.ttf') format('truetype'),
+  url('/assets/fonts/vikingship/vikingship-webfont.svg#viking_shipregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
 .homeController{
   background-image: url('../assets/img/backgrounds/swirl_pattern.png');
   background-repeat: none;
@@ -19,6 +31,8 @@
 h1.name {
   font-size: 1000%;
   color: #FEAC00;
+  font-family: 'viking_shipregular';
+  padding: 30px;
 }
 
 h3.name {
@@ -80,3 +94,20 @@ h2.contact {
     margin: 10px;
   }
 }
+
+.navbar-fixed-top {
+  min-height: 80px;
+}
+
+.navbar-nav > li > a {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  line-height: 80px;
+}
+
+@media (max-width: 767px) {
+  .navbar-nav > li > a {
+    line-height: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;}
+  }
