@@ -10,8 +10,8 @@
   background-image: url('../assets/pdf/developer_resume_color.jpeg');
   background-repeat: none;
   background-size: cover;
-  width: 992px;
-  height: 1403px;
+  width: 100%;
+  height: auto;
   display:block;
   margin:auto;
 }
