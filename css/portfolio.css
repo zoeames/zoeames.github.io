@@ -44,3 +44,11 @@
 .panel-default {
   border-color: transparent;
 }
+
+
+#portfolioImg{
+  width: 90%;
+  height: auto;
+  padding: 20px;
+  border: 20px;
+}
