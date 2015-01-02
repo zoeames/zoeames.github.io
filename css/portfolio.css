@@ -12,7 +12,7 @@
 
 .portfolioBox{
   width: 30%;
-  height: 400px;
+  height: auto;
   border-radius: 10%;
   border: solid black 2px;
   padding: 10px;
