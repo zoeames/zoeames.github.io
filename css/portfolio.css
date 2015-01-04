@@ -22,7 +22,7 @@
   background-color: #14b9cb;
 }
 
-.collapse.in{
+#collapse1, #collapse2, #collapse3, #collapse4, #collapse5{
   background-image: url('../assets/img/backgrounds/escheresque.png');
   background-repeat: none;
 }
