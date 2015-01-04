@@ -10,9 +10,21 @@
 	background-image: url('../assets/img/ic348_purple.jpg');
 	background-repeat: none;
 	background-size: cover;
-	height: 500px;
-	width: 500px;
+	height: 400px;
+	width: 400px;
 	display: block;
 	margin-left: auto;
 	margin-right: auto
+}
+
+
+.astropannel{
+	height: auto;
+	border-radius: 5%;
+	border: solid #FEAC00 3px;
+	padding: 10px;
+	margin: 10px;
+	display: inline-block;
+	vertical-align: center;
+	background-color: #6f6d6d;
 }
