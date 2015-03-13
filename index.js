@@ -10,6 +10,7 @@
     .when('/skills', {templateUrl:'/views/skills/skills.html', controller:'SkillsCtrl'})
     .when('/portfolio', {templateUrl:'/views/portfolio/portfolio.html', controller:'PortfolioCtrl'})
     .when('/resume', {templateUrl:'/views/resume/resume.html', controller:'ResumeCtrl'})
+    .when('/NashCC', {templateUrl:'/views/nashcc/nashcc.html', controller:'NashCtrl'})
     .otherwise({redirectTo:'/'});
 
   }]);
