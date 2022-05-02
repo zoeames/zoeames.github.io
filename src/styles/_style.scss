@@ -459,8 +459,21 @@ body.light .header ul.icon-menu li.icon-box:hover i {
 
 /*** Navigation ***/
 .home-details-container {
+  .social-buttons{
+    a {
+      margin: 15px;
+    }
+  }
   @media (max-width: 991px) {
     height: 100vh;
+    .social-buttons{
+      text-align: center;
+      a {
+        display: block;
+        width: 75%;
+        margin: 15px auto;
+      }
+    }
   }
 }
 .header {

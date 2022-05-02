@@ -2,7 +2,7 @@ import React from "react";
 
 const heroContent = {
   heroImage: "images/me.jpg",
-  heroMobileImage: "img-mobile",
+  heroMobileImage: "images/me-mobile.jpg",
   heroTitleName: "Zoë Ames",
   heroDesignation: "UI Architect",
   heroDescriptions: `I'm a astrophysicist turned web developer who is passionate about making clean, performant, and accessible websites for al lto enjoy.`,
@@ -23,7 +23,7 @@ const Hero = () => {
         <div className="col-12 col-lg-8 offset-lg-4 home-details  text-center text-lg-start">
           <div>
             <img
-              src={`img/hero/${heroContent.heroMobileImage}.jpg`}
+              src={`${heroContent.heroMobileImage}`}
               className="img-fluid main-img-mobile d-sm-block d-lg-none"
               alt="hero man"
             />
@@ -32,18 +32,21 @@ const Hero = () => {
               <span>{heroContent.heroDesignation}</span>
             </h1>
             <p className="open-sans-font">{heroContent.heroDescriptions}</p>
-            <a className="button" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/zoeames/">
-              <span className="button-text">linkedin</span>
-              <span className="button-icon fa-brands fa-linkedin-in"></span>
-            </a>
-            <a className="button" target="_blank" rel="noreferrer" href="mailto: zoeames@gmail.com" style={{margin: "0 15px"}}>
-              <span className="button-text">email</span>
-              <span className="button-icon fa-solid fa-envelope"></span>
-            </a>
-            <a className="button" target="_blank" rel="noreferrer" href="https://github.com/zoeames">
-              <span className="button-text">github</span>
-              <span className="button-icon fa-brands fa-github"></span>
-            </a>
+            <div className="social-buttons">
+              <a className="button" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/zoeames/">
+                <span className="button-text">linkedin</span>
+                <span className="button-icon fa-brands fa-linkedin-in"></span>
+              </a>
+              <a className="button" target="_blank" rel="noreferrer" href="mailto: zoeames@gmail.com">
+                <span className="button-text">email</span>
+                <span className="button-icon fa-solid fa-envelope"></span>
+              </a>
+              <a className="button" target="_blank" rel="noreferrer" href="https://github.com/zoeames">
+                <span className="button-text">github</span>
+                <span className="button-icon fa-brands fa-github"></span>
+              </a>
+            </div>
+
           </div>
         </div>
       </div>
