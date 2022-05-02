@@ -5,7 +5,7 @@ const heroContent = {
   heroMobileImage: "images/me-mobile.jpg",
   heroTitleName: "Zoë Ames",
   heroDesignation: "UI Architect",
-  heroDescriptions: `I'm a astrophysicist turned web developer who is passionate about making clean, performant, and accessible websites for al lto enjoy.`,
+  heroDescriptions: `I'm a astrophysicist turned web developer who is passionate about making clean, performant, and accessible websites.`,
 };
 
 const Hero = () => {
